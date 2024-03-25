@@ -1,0 +1,52 @@
+@import './base.css';
+
+#app {
+    margin: 0 auto;
+    padding: 2rem;
+
+    font-weight: normal;
+}
+
+a,
+.green {
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+}
+
+@media (hover: hover) {
+    a:hover {
+        background-color: hsla(160, 100%, 37%, 0.2);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        place-items: center;
+    }
+
+    #app {
+        padding: 0 2rem;
+        background-color: #636363;
+        padding-bottom: 3%;
+    }
+
+    .Loginscreen {
+        /* Add your styling for the login screen */
+        text-align: center;
+        margin: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        margin-left: -4%;
+    }
+
+    button{
+        margin-left: 4%;
+    }
+
+    h1{
+        margin-top: -3%;
+    }
+}
